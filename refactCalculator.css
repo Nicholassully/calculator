@@ -1,0 +1,68 @@
+body {
+  border: solid black 5px;
+  width: 300px;
+}
+
+#display {
+  height: 20px;
+  width: 297px;
+  border: solid 4px black;
+}
+
+.operators {
+  position: absolute;
+  left: 137px;
+  height: 100px;
+  width: 250px;
+}
+
+#reset {
+  width: 60px;
+}
+
+#add {
+  margin-top: 8px;
+  padding: 5px;
+  width: 86px;
+  height: 30px;
+}
+
+
+#subtract {
+  margin-top: 8px;
+  padding: 5px;
+  width: 86px;
+  height: 30px;
+}
+
+#multiply {
+  margin-top: 8px;
+  padding: 5px;
+  width: 86px;
+  height: 30px;
+}
+
+#division {
+  margin-top: 8px;
+  padding: 5px;
+  width: 86px;
+  height: 30px;
+}
+
+#reset {
+  margin-top: 8px;
+  padding: 5px;
+  width: 176px;
+  height: 30px;
+}
+
+.oneToZero {
+  margin-top: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+#equals {
+  width: 64px;
+  height: 30px;
+}

@@ -1,19 +1,16 @@
 <!doctype HTML>
-
 <html>
+
 <head>
-
   <title> Calculator </title>
-
+  <link rel="stylesheet" href="refactCalculator.css">
 </head>
 
 <body>
-
   <div id="display">
     <span id="number"></span><span id="operator"></span><span id="savedNumber"></span><span id="result"></span>
   </div>
-
-  <div class="operators" >
+  <div class="operators">
     <!-- Button takes an id because there is only one of them.
   We give the button an onclick function and a data-value of the specific operator
   for this button. data-value is similar to the value attribute but it is more
@@ -25,45 +22,27 @@
     <button id="multiply" data-value="*" onclick="selectOperator('*')"> * </button>
     <button id="division" data-value="/" onclick="selectOperator('/')"> / </button>
     <button id="reset" data-value="reset" onclick="reset()"> C/E </button>
-
-  </div>
-
-  <div>
-
-    <button id="0" data-value="0" onclick="numberClick(0)"> 0 </button>
-
   </div>
   <div>
-
-    <button id="1" data-value="1" onclick="numberClick(1)"> 1 </button>
-    <button id="2" data-value="2" onclick="numberClick(2)"> 2 </button>
-    <button id="3" data-value="3" onclick="numberClick(3)"> 3 </button>
-
+    <button class="oneToZero" id="1" data-value="1" onclick="numberClick(1)"> 1 </button>
+    <button class="oneToZero" id="2" data-value="2" onclick="numberClick(2)"> 2 </button>
+    <button class="oneToZero" id="3" data-value="3" onclick="numberClick(3)"> 3 </button>
   </div>
   <div>
-
-    <button id="4" data-value="4" onclick="numberClick(4)"> 4 </button>
-    <button id="5" data-value="5" onclick="numberClick(5)"> 5 </button>
-    <button id="6" data-value="6" onclick="numberClick(6)"> 6 </button>
-
+    <button class="oneToZero" id="4" data-value="4" onclick="numberClick(4)"> 4 </button>
+    <button class="oneToZero" id="5" data-value="5" onclick="numberClick(5)"> 5 </button>
+    <button class="oneToZero" id="6" data-value="6" onclick="numberClick(6)"> 6 </button>
   </div>
   <div>
-
-    <button id="7" data-value="7" onclick="numberClick(7)"> 7 </button>
-    <button id="8" data-value="8" onclick="numberClick(8)"> 8 </button>
-    <button id="9" data-value="9" onclick="numberClick(9)"> 9 </button>
-
+    <button class="oneToZero" id="7" data-value="7" onclick="numberClick(7)"> 7 </button>
+    <button class="oneToZero" id="8" data-value="8" onclick="numberClick(8)"> 8 </button>
+    <button class="oneToZero" id="9" data-value="9" onclick="numberClick(9)"> 9 </button>
   </div>
-
   <div>
-
+    <button class="oneToZero" id="0" data-value="0" onclick="numberClick(0)"> 0 </button>
     <button id="equals" data-value="=" onclick="calcDisplay()"> = </button>
-
   </div>
-
-<script src="refactCalculator.js"></script>
-
+  <script src="refactCalculator.js"></script>
 </body>
-
 
 </html>
