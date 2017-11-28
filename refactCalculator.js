@@ -75,8 +75,6 @@ function showDisplay(){
 }
 
 function calcDisplay(){
-  console.log('Current Number',number)
-  console.log('saved Number',savedNumber)
   result = runCalc();
   showDisplay();
   reset();
